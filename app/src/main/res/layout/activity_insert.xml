@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Insert">
+
+
+    <EditText
+        android:id="@+id/insertName"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:hint="请输入姓名" />
+
+    <EditText
+        android:id="@+id/insertAge"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:inputType="number"
+        android:hint="请输入年龄" />
+
+    <RadioGroup
+        android:id="@+id/sexgroup"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/sex_man"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:text="男"
+            android:checked="true"
+            android:layout_weight="1"/>
+        <RadioButton
+            android:id="@+id/sex_woman"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:text="女"
+            android:layout_weight="1"/>
+    </RadioGroup>>
+
+    <Button
+        android:id="@+id/insertSave"
+        android:text="开始录入人脸"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent" />
+</LinearLayout>

@@ -1,0 +1,4 @@
+include ':app'
+rootProject.name='FaceDetection'
+include ':openCVLibrary340'
+include ':openCVLibrary420'

@@ -1,0 +1,9 @@
+设置前置相机,切换相机位置：setCameraIndex(int mCameraIndexCount)
+储存相机位置：mCameraIndexCount = getSharedPreferences("CameraCount", MODE_PRIVATE).getInt("Camera", 0);
+前置相机镜像翻转：
+    if(mCameraIndexCount==1) {
+            Core.flip(mRgba, mRgba, 1);
+            Core.flip(mGray, mGray, 1);
+    }
+强制横屏：android:screenOrientation="landscape"  //竖屏：portrait
+隐藏状态栏： android:theme="@android:style/Theme.NoTitleBar.Fullscreen"

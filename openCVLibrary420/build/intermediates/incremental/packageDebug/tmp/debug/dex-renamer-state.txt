@@ -1,0 +1,4 @@
+#Wed Jun 03 09:06:05 CST 2020
+base.0=D\:\\study\\AndroidStudioProjects\\FaceDetection\\openCVLibrary420\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

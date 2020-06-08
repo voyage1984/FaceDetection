@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+<!--    <Button-->
+<!--        android:id="@+id/btn1"-->
+<!--        android:textSize="10dp"-->
+<!--        android:text="拍照识别(综合)"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_width="match_parent"/>-->
+    <Button
+        android:id="@+id/main_record"
+        android:textSize="10dp"
+        android:text="录入人像"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"/>
+    <Button
+        android:id="@+id/main_shotcompare"
+        android:textSize="10dp"
+        android:text="拍照识别"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"/>
+
+    <Button
+        android:id="@+id/main_recordcompare"
+        android:textSize="10dp"
+        android:text="视频识别"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"/>
+
+<!--    <Button-->
+<!--        android:id="@+id/btn5"-->
+<!--        android:textSize="10dp"-->
+<!--        android:text="检测输入"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_width="match_parent"/>-->
+
+    <Button
+        android:id="@+id/main_showdata"
+        android:textSize="10dp"
+        android:text="查看数据库"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"/>
+
+    <Button
+        android:id="@+id/main_readme"
+        android:textSize="10dp"
+        android:text="Readme"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"/>
+
+</LinearLayout>
