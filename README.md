@@ -27,3 +27,6 @@
 
 - ###### 关于本程序
 本程序使用了opencv 4.2.0，JNILibs中也使用了"libopencv_java4.so"，默认编译使用x86和arm64_v8a架构
+
+- ###### 关于原理
+本质上是基于compareHist的图片识别比对相似度，但保存和识别的图片是人脸检测(face-detection)时的人脸部分的区域，故称人脸识别。
