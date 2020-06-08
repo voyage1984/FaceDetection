@@ -30,3 +30,4 @@
 
 - ###### 关于原理
 本质上是基于compareHist的图片识别比对相似度，但保存和识别的图片是人脸检测(face-detection)时的人脸部分的区域，故称人脸识别。
+资料参考：[CSDN博客](https://blog.csdn.net/q4878802/article/details/51841793)
